@@ -1,0 +1,107 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body */
+body {
+    font-family: 'Arial', sans-serif;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(120deg, #b5e48c, #52b69a);
+    overflow: hidden;
+}
+
+/* Contact Container */
+.contact-container {
+    background: #fff;
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    max-width: 500px;
+    width: 100%;
+}
+
+.contact-container h1 {
+    color: #52b69a;
+    margin-bottom: 15px;
+    font-size: 2em;
+}
+
+.contact-container p {
+    color: #555;
+    font-size: 1.1em;
+    margin-bottom: 20px;
+}
+
+/* Form Styling */
+#contact-form {
+    display: flex;
+    flex-direction: column;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px; /* Added spacing */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1em;
+}
+
+textarea {
+    resize: none;
+    height: 100px;
+}
+
+/* Send Button */
+button {
+    padding: 12px 30px;
+    font-size: 1.1em;
+    background: linear-gradient(120deg, #76c893, #52b69a);
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+button:hover {
+    background: linear-gradient(120deg, #52b69a, #34a0a4);
+}
+
+/* Contact Info */
+.contact-info {
+    margin-top: 20px;
+    font-size: 1em;
+    color: #555;
+}
+
+.contact-info p {
+    margin: 5px 0;
+}
+
+/* Social Icons */
+.social-icons {
+    margin-top: 20px;
+}
+
+.social-icons a {
+    display: inline-block;
+    margin: 0 8px;
+}
+
+.social-icons img {
+    width: 30px;  /* Adjusted icon size */
+    height: 30px;
+    transition: transform 0.3s ease;
+}
+
+.social-icons img:hover {
+    transform: scale(1.1);
+}

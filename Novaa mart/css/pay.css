@@ -1,0 +1,65 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+}
+
+.payment-methods {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.payment-option {
+    text-align: center;
+    cursor: pointer;
+    padding: 20px;
+    border: 2px solid #007bff;
+    border-radius: 10px;
+    transition: all 0.3s ease;
+}
+
+.payment-option:hover {
+    background-color: #007bff;
+    color: white;
+    transform: scale(1.05);
+}
+
+.payment-option img {
+    width: 80px;
+    height: 80px;
+    margin-bottom: 10px;
+}
+
+#payment-details {
+    display: none;
+}
+
+#cart-summary {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#cart-items-list .list-group-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#pay-button {
+    display: none;
+    margin-top: 20px;
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #343a40;
+    color: #adb5bd;
+    text-align: center;
+    padding: 10px 0;
+    z-index: 100;
+}
